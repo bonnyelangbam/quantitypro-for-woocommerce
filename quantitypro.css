@@ -1,0 +1,90 @@
+/* QuantityPro for WooCommerce - Quantity Input Styling */
+
+/* Chrome, Safari, Edge, Opera - Remove default spinner buttons */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox - Remove default spinner buttons */
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+/* Quantity container styling */
+.quantity {
+	background-color: #f1f1f1;
+	display: flex;
+	align-items: center;
+	border-radius: 4px;
+	overflow: hidden;
+	width: fit-content;
+}
+
+/* Quantity buttons and input field */
+.quantity button,
+.quantity .qty {
+	background: transparent;
+	border: none;
+	padding: 8px 12px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	font-weight: 500;
+}
+
+/* Plus and minus button styling */
+.quantity button.plus,
+.quantity button.minus {
+	background-color: #f1f1f1;
+	color: #333;
+	min-width: 40px;
+	text-align: center;
+}
+
+/* Hover effect for plus and minus buttons */
+.quantity button.plus:hover,
+.quantity button.minus:hover {
+	background-color: #e0e0e0;
+}
+
+/* Active state for buttons */
+.quantity button.plus:active,
+.quantity button.minus:active {
+	background-color: #d0d0d0;
+}
+
+/* Quantity input field styling */
+.quantity .qty {
+	text-align: center;
+	min-width: 50px;
+	padding: 8px 5px;
+	font-size: 14px;
+	color: #333;
+}
+
+/* Remove default appearance for number input */
+.quantity .qty::-webkit-outer-spin-button,
+.quantity .qty::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Mobile responsive styling */
+@media ( max-width: 768px ) {
+	.quantity button,
+	.quantity .qty {
+		padding: 6px 10px;
+		font-size: 14px;
+	}
+
+	.quantity button.plus,
+	.quantity button.minus {
+		min-width: 35px;
+	}
+
+	.quantity .qty {
+		min-width: 45px;
+	}
+}
