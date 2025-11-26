@@ -1,17 +1,19 @@
 <?php
 /**
  * Plugin Name: QuantityPro for WooCommerce
- * Plugin URI: https://wordpress.org/plugins/custom-quantitypro-for-woocommerce/
+ * Plugin URI: https://wordpress.org/plugins/quantitypro-for-woocommerce/
  * Description: Add customizable plus and minus buttons to WooCommerce product quantity selectors
  * Version: 1.0.0
  * Author: Bonny Elangbam
  * Author URI: https://profile.wordpress.org/bonnyelangbam
+ * Text Domain: quantitypro-for-woocommerce
  * License: GPLv3 or later
- * Requires at least: 4.6
- * Requires PHP: 7.2
+ * Requires at least: 5.8
+ * Requires PHP: 7.4
+ * Requires Plugins: woocommerce
  * Tested up to: 6.8
- * WC requires at least: 3.0
- * WC tested up to: 8.0
+ * WC requires at least: 6.0
+ * WC tested up to: 9.4
  */
 
 // Exit if accessed directly
