@@ -1,5 +1,5 @@
 === QuantityPro for WooCommerce ===
-Contributors: Bonny Elangbam
+Contributors: bonnyelangbam
 Tags: woocommerce, quantity, plus, minus, e-commerce
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
